@@ -34,7 +34,7 @@ public class DisplayWord extends AppCompatActivity {
 
         HashMap<String, String> hashMap = new HashMap<>();
 
-        for ( int i = 0; 1 < wordList.size(); i++) {
+        for ( int i = 0; i < wordList.size(); i++) {
             hashMap.put(wordList.get(i).getWord(), wordList.get(i).getMeaning());
 
         }
